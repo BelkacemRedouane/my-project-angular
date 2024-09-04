@@ -1,0 +1,157 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "description": "Testez vos connaissances en HTML"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "description": "Testez vos connaissances en CSS"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "description": "Testez vos connaissances en JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "Angular",
+      "description": "Testez vos connaissances en Angular"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "questionLabel": "Quel est le rôle de la balise <div> en HTML?"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "questionLabel": "À quoi sert la balise <span>?"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "questionLabel": "Comment centrer un élément en CSS?"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "questionLabel": "Qu'est-ce que le modèle de boîte (box model) en CSS?"
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "questionLabel": "Quelle est la différence entre var, let et const en JavaScript?"
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "questionLabel": "Qu'est-ce qu'une closure en JavaScript?"
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "questionLabel": "Qu'est-ce qu'un service dans Angular?"
+    },
+    {
+      "id": 8,
+      "categoryId": 4,
+      "questionLabel": "À quoi sert un module dans Angular?"
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "questionId": 1,
+      "answerLabel": "Contenir des éléments",
+      "isCorrect": true
+    },
+    {
+      "id": 2,
+      "questionId": 1,
+      "answerLabel": "Définir un lien",
+      "isCorrect": false
+    },
+    {
+      "id": 3,
+      "questionId": 2,
+      "answerLabel": "Encapsuler un texte pour le styliser",
+      "isCorrect": true
+    },
+    {
+      "id": 4,
+      "questionId": 2,
+      "answerLabel": "Définir une liste",
+      "isCorrect": false
+    },
+    {
+      "id": 5,
+      "questionId": 3,
+      "answerLabel": "Utiliser 'margin: auto;'",
+      "isCorrect": true
+    },
+    {
+      "id": 6,
+      "questionId": 3,
+      "answerLabel": "Utiliser 'text-align: center;'",
+      "isCorrect": false
+    },
+    {
+      "id": 7,
+      "questionId": 4,
+      "answerLabel": "Une méthode pour rendre les éléments flexibles",
+      "isCorrect": false
+    },
+    {
+      "id": 8,
+      "questionId": 4,
+      "answerLabel": "Un modèle pour structurer les éléments de page",
+      "isCorrect": true
+    },
+    {
+      "id": 9,
+      "questionId": 5,
+      "answerLabel": "Ils déclarent des variables avec différentes portées",
+      "isCorrect": true
+    },
+    {
+      "id": 10,
+      "questionId": 5,
+      "answerLabel": "Ce sont des types de fonctions",
+      "isCorrect": false
+    },
+    {
+      "id": 11,
+      "questionId": 6,
+      "answerLabel": "Une fonction imbriquée avec accès aux variables externes",
+      "isCorrect": true
+    },
+    {
+      "id": 12,
+      "questionId": 6,
+      "answerLabel": "Une méthode de promesse",
+      "isCorrect": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    },
+    {
+      "id": "dd41",
+      "username": "red",
+      "password": "Redouane"
+    }
+  ]
+}
